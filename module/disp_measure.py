@@ -6,7 +6,7 @@ import itertools
 import os.path
 import numpy as np
 import cv2
-from itertools import combinations # ADDED! CHECK plz
+from itertools import combinations
 from .utils import findProjectiveTransform
 
 ## Function that find four valid circles in dest_circles
